@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 3px;
+  box-sizing: border-box;
+}
+
+.body {
+    background-color: #333;
+    font-family: Arial, sans-serif;
+    
+}
+.header-bar {
+  display: flex;
+  align-items: center;
+  background-color: #333;
+  border-radius: 10px;
+}
+
+.header-bar > div {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+/* Specific alignment for each section */
+.left  { justify-content: flex-start; }
+.center { justify-content: center; }
+.right { justify-content: flex-end; }
+
+.title:hover{
+    font-weight: bold;
+    color: red;
+    font-size: large;
+}
+
+.LOGO {
+    flex: 1;
+    font-weight: bold;
+    font-size: 24px;
+
+    
+}
+
+
+.left_MAIN {
+    width: 25vw;
+    height: 45vw;
+    text-align: left;
+    padding: 10px;
+        background: linear-gradient(to right, rgb(36, 39, 65), #333,rgb(36, 39, 65));
+    
+
+}
+
+.main {
+    width: 75vw;
+    overflow: scroll;
+    height: 45vw;
+    background: linear-gradient(to right, rgb(36, 39, 65), #333,rgb(36, 39, 65));
+    
+   
+    
+}
+
+.home {
+    background-color: rgb(36, 39, 65);
+    border-radius: 10px;
+    text-align: center;
+    
+}
+.e_commerce{
+    margin-top: 30px;
+    background-color: rgb(36, 39, 65);
+    border-radius: 10px;
+    text-align: center;
+}
+.content {
+    background-color: rgb(36, 39, 65);
+    margin-top: 30px;
+     border-radius: 10px;
+    text-align: center;
+}
+.heading{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: aqua;
+}
+
+.footer{
+    text-align: center;
+}
+
+.flip-box {
+  background-color: transparent;
+  width: 500px;
+  height: 250px;
+  perspective: 1000px; /* Adds depth to the 3D effect */
+
+
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front,
+.flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-box-front img,
+.flip-box-back img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.flip-box-back {
+  transform: rotateY(180deg) ;
+}
+
+.flipper{
+    margin-top: 2vh;
+    margin-left: 45vh;
+}
+
+ .element-container{
+   padding: 0px 0px 0px 20px;
+    border-style: solid;
+    border-width: 0px 0px 0px 5px;
+    border-color:  #ff0000 ;
+    margin-left: 5vh;
+   }
+
+.message{
+ margin-left: 8vh;
+ margin-top: 3vh;
+ margin-bottom: 3vh;
+}
+
+.tagline{
+    color: #ff0000;
+    text-align: center;
+}
+
+
+
+
