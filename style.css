@@ -156,11 +156,15 @@
 
 
 @media (max-width: 700px) {
-  .left_MAIN,
+  .left_MAIN{
+    width: 0px;
+  }
   .main {
-    width: 100vw;
+    width: 100%;
     height: auto;
   }
+
+ 
 
   .layout-container {
     flex-direction: column;
