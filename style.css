@@ -155,5 +155,35 @@
 }
 
 
+@media (max-width: 768px) {
+  .left_MAIN,
+  .main {
+    width: 100vw;
+    height: auto;
+  }
+
+  .layout-container {
+    flex-direction: column;
+  }
+
+  .flipper {
+    margin-left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .flip-box {
+    width: 90%;
+    height: auto;
+  }
+
+  .element-container,
+  .message {
+    margin-left: 5vw;
+  }
+}
+
+
 
 
